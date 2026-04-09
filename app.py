@@ -15,7 +15,7 @@ st.write("Versión de Python:", platform.python_version())
 
 # Load and display image
 try:
-    image = Image.open('C4ec526eaa24c04c2be797b01135b0647.jpg')
+    image = Image.open('imagen.jpg')
     st.image(image, width=350)
 except Exception as e:
     st.warning(f"No se pudo cargar la imagen: {e}")
